@@ -1,0 +1,23 @@
+installation
+download and install git scm (select 'Native windows secure channel' instead of 'Use the openSSL library' )
+download vs code zip file and run code
+create account and repository in git (open the vs code > source control) and copy the repository
+
+
+next in vs code, check in settings > preference > search git, ensure git is enabled
+since using python
+next create a file 'hello.py' with print("hello world"), click run. vs code will prompt if wish to install the python extension and yes, redirect to install. wait til finish
+
+next git source control > click check icon to commit
+(note: if issue encountered, during git installation, ensure to click 'Native windows secure channel' instead of 'Use the openSSL library', else will encounter this upon commit:
+relating to git use native windows secure channel/certificate, to fix this, just run in cmd > git config --global http.sslBackend schannel )
+
+might encounter issue regarding user.email and user.name
+in cmd just type
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+  
+
+, and click ... and click push
+refresh repo in git, see the file uploaded.
